@@ -1,5 +1,13 @@
 @import url(__list/__list.css);
+@import url(__list-items/__list-items.css);
 @import url(__list-numbers/__list-numbers.css);
 @import url(__list-text/__list-text.css);
 @import url(__text/__text.css);
 @import url(__title/__title.css);
+
+.intro {
+  width: 690px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 477px 59px 113px;
+}
