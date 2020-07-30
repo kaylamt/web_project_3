@@ -1,0 +1,7 @@
+@import url(_en/_en.css);
+@import url(_es/_es.css);
+
+.header__lang-link {
+  color: #ffffff;
+  margin-left: 20px;
+}
