@@ -1,4 +1,11 @@
 @import url(__caption/__caption.css);
+@import url(__container/__container.css);
 @import url(__image/__image.css);
 @import url(__subtitle/__subtitle.css);
 @import url(__title/__title.css);
+
+.lead {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
