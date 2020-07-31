@@ -1,0 +1,9 @@
+@import url(_comment/_comment.css);
+@import url(_main/_main.css);
+@import url(_sub/_sub.css);
+
+.place__paragraph {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+}

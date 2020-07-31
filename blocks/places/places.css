@@ -1,0 +1,6 @@
+.places {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 92px 0 0 0;
+}
