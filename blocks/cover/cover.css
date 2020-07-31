@@ -1,2 +1,10 @@
+@import url(__container/__container.css);
 @import url(__subtitle/__subtitle.css);
 @import url(__title/__title.css);
+
+.cover {
+  background-image: url("../../images/__background-route.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
