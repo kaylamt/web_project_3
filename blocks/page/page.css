@@ -1,11 +1,6 @@
-/* @font-face {
-  font-family: "Inter";
-  /* src: url(/Inter-Desktop/Inter-Black.otf); */
-/* font-weight: normal; */
-/* } */
+@import url(__container/__container.css);
 
 .page {
-  /* margin: auto; */
-  background: #2a2c2f;
-  color: #ffffff;
+  background: #e5e5e5;
+  margin: 0;
 }

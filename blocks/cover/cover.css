@@ -4,7 +4,9 @@
 
 .cover {
   background-image: url("../../images/__background-route.png");
-  width: 100%;
+  width: 1184px;
+  margin: 0 48px 92px 48px;
   background-repeat: no-repeat;
   background-size: cover;
+  align-items: center;
 }
