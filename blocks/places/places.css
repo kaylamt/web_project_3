@@ -2,6 +2,118 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 92px 148px 0 148px;
+  margin: 92px auto 92px auto;
   width: 984px;
+}
+
+@media screen and (max-width: 1270px) {
+  .places {
+    width: 928px;
+  }
+
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+
+  .place__title {
+    width: 440px;
+  }
+
+  .place__paragraph_main {
+    width: 456px;
+  }
+
+  .place__paragraph_sub {
+    width: 456px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    width: 720px;
+    margin: 88px auto 88px auto;
+  }
+
+  .place {
+    margin: 0 0 72px 0;
+  }
+
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .place__title {
+    width: 340px;
+  }
+
+  .place__website {
+    width: 352px;
+  }
+
+  .place__paragraph_main {
+    width: 352px;
+    font-size: 16px;
+  }
+
+  .place__paragraph_sub {
+    width: 352px;
+  }
+
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .place__description {
+    padding: 0;
+  }
+
+  .place__website_new-hampshire {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: 320px;
+    margin: 64px auto 64px auto;
+  }
+
+  .place {
+    margin: 0 0 48px 0;
+    flex-wrap: wrap;
+  }
+
+  .place__website {
+    display: none;
+  }
+
+  .place__title {
+    font-size: 32px;
+    line-height: 1.1;
+    width: 288px;
+  }
+
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .place__paragraph_main {
+    width: 288px;
+  }
+
+  .place__paragraph_sub {
+    width: 288px;
+  }
+
+  .place__paragraph {
+    text-align: start;
+  }
+
+  .place__heading {
+    margin: 0;
+  }
 }

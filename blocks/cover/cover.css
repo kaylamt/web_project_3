@@ -4,9 +4,44 @@
 
 .cover {
   background-image: url("../../images/__background-route.png");
-  width: 1184px;
-  margin: 0 48px 92px 48px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  width: 1184px;
+  margin: 0 auto 0 auto;
   align-items: center;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover {
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover {
+    width: 320px;
+  }
+
+  .cover__title {
+    font-size: 32px;
+    line-height: 1.1;
+    width: 288px;
+  }
+
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 1.1;
+    width: 288px;
+  }
+
+  .cover__container {
+    height: 200px;
+  }
 }
