@@ -2,5 +2,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 92px 0 0 0;
+  margin: 92px 148px 0 148px;
+  width: 984px;
 }

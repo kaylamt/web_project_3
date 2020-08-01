@@ -2,8 +2,8 @@
 @import url(__container/__container.css);
 
 .photo-grid {
-  margin: 0;
-  width: 95%;
+  margin: 0 48px 0 48px;
   display: flex;
   justify-content: center;
+  width: 1184px;
 }
