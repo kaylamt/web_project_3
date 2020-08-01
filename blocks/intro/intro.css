@@ -11,3 +11,32 @@
   flex-wrap: wrap;
   margin: 0 477px 59px 113px;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    margin: 0 286px 92px 48px;
+  }
+}
+
+@media screen and (max-width 1023px) {
+  .intro {
+    margin: 0 auto 88 auto;
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: 288px;
+    margin: 0 auto 64px auto;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.1;
+  }
+
+  .intro__text_subtitle {
+    line-height: 1.2;
+  }
+}
