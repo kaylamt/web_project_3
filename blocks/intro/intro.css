@@ -6,9 +6,7 @@
 @import url(__title/__title.css);
 
 .intro {
-  width: 690px;
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 690px;
   margin: 0 477px 59px 113px;
 }
 
@@ -21,13 +19,13 @@
 @media screen and (max-width: 1023px) {
   .intro {
     margin: 0 auto 88 auto;
-    width: 720px;
+    max-width: 720px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    width: 288px;
+    max-width: 288px;
     margin: 0 auto 64px auto;
   }
 }
