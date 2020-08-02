@@ -2,23 +2,23 @@
   font-size: 16px;
   line-height: 1.6;
   margin: 0 0 24px 0;
-  width: 484px;
+  max-width: 484px;
 }
 
 @media screen and (max-width: 1270px) {
   .place__paragraph_sub {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph_sub {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph_sub {
-    width: 288px;
+    max-width: 288px;
   }
 }
