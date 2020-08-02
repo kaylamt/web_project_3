@@ -6,7 +6,7 @@
 
 .lead {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   flex-wrap: wrap;
   width: 984px;
   margin: 0 auto 125px auto;
