@@ -1,3 +1,9 @@
 .header__lang-link_en {
   text-decoration-style: underline;
 }
+
+@media screen and (max-width: 767px) {
+  .header__lang-link_en {
+    display: none;
+  }
+}

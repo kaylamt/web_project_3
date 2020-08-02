@@ -25,21 +25,4 @@
   .header {
     width: 288px;
   }
-
-  .header__container {
-    margin-top: 20px;
-  }
-
-  .logo {
-    width: 156px;
-  }
-
-  .header__lang-link {
-    font-size: 18px;
-    line-height: 24px;
-  }
-
-  .header__lang-link_en {
-    display: none;
-  }
 }
