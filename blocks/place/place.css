@@ -8,10 +8,19 @@
 @import url(__website/__website.css);
 
 .place {
-  margin: 0 0 80px 0;
+  /* margin: 0 0 80px 0; */
   width: 100%;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: 460px 456px;
+  grid-template-rows: 76px 460px;
+  margin: 0 auto 0 auto;
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
 }
 
 @media screen and (max-width: 1023px) {
