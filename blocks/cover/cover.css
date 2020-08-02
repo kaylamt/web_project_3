@@ -28,20 +28,4 @@
   .cover {
     width: 320px;
   }
-
-  .cover__title {
-    font-size: 32px;
-    line-height: 1.1;
-    width: 288px;
-  }
-
-  .cover__subtitle {
-    font-size: 14px;
-    line-height: 1.1;
-    width: 288px;
-  }
-
-  .cover__container {
-    height: 200px;
-  }
 }
