@@ -38,6 +38,7 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.1;
+    width: 288px;
   }
 
   .cover__container {

@@ -2,6 +2,7 @@
 @import url(__copyright/copyright.css);
 @import url(__link/__link.css);
 @import url(__links/__links.css);
+@import url(__link-text/__link-text.css);
 
 .footer {
   width: 1184px;
@@ -30,7 +31,6 @@
 
   .footer__container {
     flex-wrap: wrap;
-    height: 198px;
   }
 
   .footer__links {
@@ -38,7 +38,7 @@
     justify-content: space-between;
   }
 
-  .footer__link {
+  .footer__link-text {
     font-size: 24px;
     line-height: 1;
   }
@@ -46,5 +46,9 @@
   .footer__copyright {
     line-height: 1;
     margin: 48px 0 0 0;
+  }
+
+  .footer__link {
+    margin: 0 0 32px 0;
   }
 }
