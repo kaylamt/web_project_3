@@ -1,6 +1,8 @@
 @import url(__container/__container.css);
 
 .page {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
   background: #e5e5e5;
   margin: 0;
 }
