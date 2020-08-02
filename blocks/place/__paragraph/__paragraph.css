@@ -2,9 +2,7 @@
 @import url(_sub/_sub.css);
 
 .place__paragraph {
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   display: flex;
   flex-wrap: wrap;
 }
