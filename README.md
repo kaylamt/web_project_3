@@ -1,20 +1,13 @@
-# Project 3: From Portland to Portland
+# Practicum by Yandex Web Project
 
-### Overview
-* Intro
-* Figma
-* Images
+## Description
 
-**Intro**
+This project builds a webpage about a trip across America. This is an adaptive website that works across popular screen sizes. This website contains images and links that feature highlights from the U.S.
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## Technologies & Techniques
 
-**Figma**
+This project was made using a design from Figma. Media queries were used to adapt the website to different screen sizes. Grid layout was used in multiple blocks as a new way to arrange elements. Adaptive properties were used to make the elements responsive to different screen sizes.
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+## Link to project
 
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+https://kaylamt.github.io/web_project_3/
