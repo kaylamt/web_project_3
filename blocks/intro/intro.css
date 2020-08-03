@@ -2,6 +2,7 @@
 @import url(__list-items/__list-items.css);
 @import url(__list-numbers/__list-numbers.css);
 @import url(__list-text/__list-text.css);
+@import url(__subtitle/__subtitle.css);
 @import url(__text/__text.css);
 @import url(__title/__title.css);
 

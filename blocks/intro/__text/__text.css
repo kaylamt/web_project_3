@@ -1,6 +1,6 @@
-@import url(_paragraph/_paragraph.css);
-@import url(_subtitle/_subtitle.css);
-
 .intro__text {
-  font-weight: 400;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 163%;
+  margin: 0 0 32px 0;
 }
