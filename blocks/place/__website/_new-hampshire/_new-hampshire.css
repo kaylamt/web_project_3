@@ -1,9 +1,0 @@
-.place__website_new-hampshire {
-  padding-top: 80px;
-}
-
-@media screen and (max-width: 1023px) {
-  .place__website_new-hampshire {
-    padding: 0;
-  }
-}

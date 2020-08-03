@@ -3,8 +3,6 @@
 
 .place__paragraph {
   font-weight: 400;
-  display: flex;
-  flex-wrap: wrap;
   grid-area: paragraph;
 }
 

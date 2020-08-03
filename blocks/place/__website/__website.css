@@ -1,9 +1,7 @@
-@import url(_new-hampshire/_new-hampshire.css);
-
 .place__website {
-  /* margin: 0 0 40px 0; */
   max-width: 456px;
   grid-area: website;
+  align-self: end;
 }
 
 @media screen and (max-width: 1023px) {
