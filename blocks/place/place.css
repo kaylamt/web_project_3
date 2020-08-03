@@ -8,11 +8,11 @@
 .place {
   margin: 0 0 80px 0;
   display: grid;
-  grid-template-columns: 460px 456px;
+  grid-template-columns: 460px 484px;
   grid-template-rows: auto;
   grid-template-areas:
     "title website"
-    "image paragraph";
+    "image paragraphs";
   grid-column-gap: 40px;
   grid-row-gap: 48px;
   justify-content: center;

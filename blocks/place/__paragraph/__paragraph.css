@@ -2,12 +2,19 @@
 @import url(_sub/_sub.css);
 
 .place__paragraph {
+  font-size: 18px;
+  line-height: 163%;
   font-weight: 400;
-  grid-area: paragraph;
+  /* grid-area: paragraph; */
+  margin: 0 0 24px 0;
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
     text-align: start;
   }
+}
+
+.place__paragraphs {
+  grid-area: paragraphs;
 }
