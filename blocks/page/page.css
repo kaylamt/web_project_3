@@ -1,10 +1,9 @@
-@import url(__container/__container.css);
-
 .page {
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #e5e5e5;
+  background: #2a2c2f;
+  color: #ffffff;
   margin: 0;
 }

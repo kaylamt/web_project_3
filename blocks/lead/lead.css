@@ -4,8 +4,6 @@
 @import url(__title/__title.css);
 
 .lead {
-  display: flex;
-  flex-wrap: wrap;
   max-width: 984px;
   margin: 0 auto 125px auto;
 }

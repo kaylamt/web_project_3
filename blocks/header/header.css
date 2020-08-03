@@ -4,7 +4,6 @@
 
 .header {
   display: flex;
-  justify-content: center;
   max-width: 928px;
   margin: 0 auto 0 auto;
 }
