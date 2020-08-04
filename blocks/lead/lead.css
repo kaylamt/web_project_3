@@ -5,13 +5,12 @@
 
 .lead {
   max-width: calc(100% - 296px);
-  margin: 0 auto 125px auto;
+  margin: 0 auto 92px auto;
 }
 
 @media screen and (max-width: 1279px) {
   .lead {
     max-width: calc(100% - 96px);
-    margin: 0 auto 92px auto;
   }
 }
 
@@ -25,6 +24,6 @@
 @media screen and (max-width: 767px) {
   .lead {
     max-width: 100%;
-    margin: 0 auto 92px auto;
+    margin: 0 auto 64px auto;
   }
 }
