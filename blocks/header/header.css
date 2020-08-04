@@ -1,11 +1,13 @@
-@import url(__container/__container.css);
 @import url(__lang-link/__lang-link.css);
 @import url(__lang-links/__lang-links.css);
 
 .header {
   display: flex;
+  justify-content: space-between;
   width: 984px;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 34px;
 }
 
 @media screen and (max-width: 1279px) {
@@ -23,5 +25,6 @@
 @media screen and (max-width: 767px) {
   .header {
     max-width: 288px;
+    padding-top: 20px;
   }
 }
