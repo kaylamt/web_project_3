@@ -4,7 +4,8 @@
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: calc(100% - 296px);
+  max-width: 984px;
+  width: calc(100% - 296px);
   margin: 0 auto;
   align-items: center;
   padding-top: 34px;
