@@ -4,7 +4,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  width: 984px;
+  max-width: calc(100% - 296px);
   margin: 0 auto;
   align-items: center;
   padding-top: 34px;
@@ -12,19 +12,19 @@
 
 @media screen and (max-width: 1279px) {
   .header {
-    max-width: 928px;
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .header {
-    max-width: 720px;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .header {
-    max-width: 288px;
+    max-width: calc(100% - 32px);
     padding-top: 20px;
   }
 }

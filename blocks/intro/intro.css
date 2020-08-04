@@ -7,26 +7,26 @@
 @import url(__title/__title.css);
 
 .intro {
-  max-width: 984px;
+  max-width: calc(100% - 296px);
   margin: 0 auto 92px auto;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
-    /* margin: 0 286px 92px 48px; */
+    max-width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     margin: 0 auto 88px auto;
-    max-width: 720px;
+    max-width: calc(100% - 48px);
   }
 }
 
 @media screen and (max-width: 767px) {
   .intro {
-    max-width: 288px;
     margin: 0 auto 64px auto;
+    max-width: calc(100% - 32px);
   }
 }
