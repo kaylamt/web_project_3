@@ -7,13 +7,14 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: calc(100% - 96px);
+  width: calc(100% - 96px);
+  max-width: 1184px;
   margin: 0 auto;
   align-items: center;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
-    max-width: 100%;
+    width: 100%;
   }
 }
