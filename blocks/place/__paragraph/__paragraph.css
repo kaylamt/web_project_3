@@ -23,6 +23,6 @@
   .place__paragraph {
     text-align: start;
     max-width: 288px;
-    margin: 0 16px;
+    margin: 0 16px 24px 16px;
   }
 }
