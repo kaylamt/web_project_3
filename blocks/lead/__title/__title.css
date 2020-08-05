@@ -4,7 +4,6 @@
   text-align: center;
   margin: 58px auto 32px auto;
   font-weight: 900;
-  max-width: 720px;
 }
 
 @media screen and (max-width: 767px) {
@@ -12,6 +11,5 @@
     font-size: 40px;
     line-height: 1.1;
     margin: 50px auto 16px auto;
-    max-width: 288px;
   }
 }
